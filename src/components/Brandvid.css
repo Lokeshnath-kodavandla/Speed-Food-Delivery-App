@@ -1,0 +1,75 @@
+.brandvid-container {
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+  }
+  
+  .brandvid-video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    z-index: -1;
+  }
+  
+  .brandvid-content {
+    position: relative;
+    z-index: 1;
+    color: white;
+    text-align: center;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+  }
+  
+  .brandvid-content h1 {
+    font-size: 3rem;
+    font-weight: bold;
+  }
+  
+  .brandvid-content h2 {
+    font-size: 2rem;
+    margin-top: 1rem;
+  }
+  
+  .brandvid-content p {
+    margin-top: 1rem;
+    font-size: 1.2rem;
+  }
+  
+  .brandvid-buttons {
+    margin-top: 1.5rem;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+  }
+  
+  .brandvid-buttons img {
+    height: 50px;
+    cursor: pointer;
+  }
+  
+  /* Responsive tweaks */
+  @media (max-width: 768px) {
+    .brandvid-content h1 {
+      font-size: 2rem;
+    }
+  
+    .brandvid-content h2 {
+      font-size: 1.5rem;
+    }
+  
+    .brandvid-content p {
+      font-size: 1rem;
+    }
+  
+    .brandvid-buttons img {
+      height: 40px;
+    }
+  }
+  

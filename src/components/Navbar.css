@@ -1,0 +1,12 @@
+.registercontainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4px;
+    margin-right: 5px;
+
+}
+#spaceforsignup {
+    margin-left: 8px;
+    margin-right: 4px;
+}
