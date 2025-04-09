@@ -5,7 +5,7 @@ import Displayitems from '../components/Displayitems'
 import Chains from '../components/chains'
 import FirmCollections from '../components/FirmCollection'
 import Ft from "../components/Ft"
-
+//Designed and Developed by Lokeshnath kodavandla
 const Home = () => {
   return (
     <>

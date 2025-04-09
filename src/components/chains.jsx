@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { API_URL } from './api';
 import { FaRegArrowAltCircleRight, FaRegArrowAltCircleLeft } from "react-icons/fa";
-import { MagnifyingGlass } from 'react-loader-spinner';
+import ClipLoader from "react-spinners/ClipLoader";
 import { Link } from 'react-router-dom';
 
 const Chains = () => {
@@ -37,7 +37,7 @@ const Chains = () => {
       {loading ? (
         <div className="text-center">
           <p className="h5 mb-3">Your 🥣 is Loading...</p>
-          <MagnifyingGlass visible={true} height="80" width="80" color="#e15b64" />
+          <ClipLoader color="#e15b64" loading={loading} size={50} />
         </div>
       ) : (
         <>
